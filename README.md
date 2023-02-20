@@ -8,7 +8,7 @@
 ```
 ---
 
-#### Install package docker <br> (**Only** architeture **aarch64**):
+#### Install package `docker` <br> (**Only** architeture **aarch64**):
 ```
  pkg in subversion -y
 ```
