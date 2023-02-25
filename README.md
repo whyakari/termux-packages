@@ -1,4 +1,6 @@
 ### Packages of the Termux compileds by me.
+# Notes
+- this is not a guide to install docker. I just keep termux packages for ME to use. it's up to you to try
 
 <br>
 
