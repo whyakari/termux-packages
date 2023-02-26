@@ -18,3 +18,10 @@
 ```
  svn export https://github.com/AkariOficial/termux-packages/trunk/docker; cd docker; dpkg -i *.deb; cd; rm -rf docker
 ```
+---
+
+> if you think my work is cool or want to help me, make a small donation <3
+#### send for btc address
+```
+ bc1qut3e70aakpdqgmc6ymva9tu92gme5g7w2h75hy
+```
