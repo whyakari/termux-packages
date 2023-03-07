@@ -6,7 +6,7 @@
 
 #### Install package python `3.10.8` <br> (**Only** architeture **aarch64**):
 ```
-   pkg in subversion -y; clear; svn export https://github.com/AkariOficial/termux-packages/trunk/python3.10.8; cd python3.10.8; dpkg -i *.deb; cd; rm -rf python3.10.8
+ pkg in subversion -y; clear; svn export https://github.com/AkariOficial/termux-packages/trunk/python3.10.8; cd python3.10.8; dpkg -i *.deb; cd; rm -rf python3.10.8
 ```
 ---
 
