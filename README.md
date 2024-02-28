@@ -5,11 +5,11 @@
 
 ### Install package python `3.10.8` <br> (**Only** architeture **aarch64**):
 ```
- pkg in subversion -y; clear; svn export https://github.com/whyakari/termux-packages/trunk/python3.10.8; cd python3.10.8; dpkg -i *.deb; cd; rm -rf python3.10.8
+wget https://github.com/whyakari/termux-packages/releases/download/packages/python3.10.8.zip; unzip python3.10.8.zip -d python3.10.8; dpkg -i *.deb; cd; rm -rf python3.10.8.zip python3.10.8
 ```
 
 ### Install package docker `v20.10.23-ce` <br> (**Only** architeture **aarch64**):
 ```
-wget https://github.com/whyakari/termux-packages/releases/download/packages/docker.zip; unzip docker.zip -d docker; cd docker; dpkg -i *.deb; cd; rm -rf docker
+wget https://github.com/whyakari/termux-packages/releases/download/packages/docker.zip; unzip docker.zip -d docker; cd docker; dpkg -i *.deb; cd; rm -rf docker.zip docker
 ```
 ----
