@@ -10,6 +10,6 @@
 
 ### Install package docker `v20.10.23-ce` <br> (**Only** architeture **aarch64**):
 ```
- pkg in subversion -y; clear; svn export https://github.com/whyakari/termux-packages/trunk/docker; cd docker; dpkg -i *.deb; cd; rm -rf docker
+wget https://github.com/whyakari/termux-packages/releases/download/packages/docker.zip; unzip docker.zip -d docker; cd docker; dpkg -i *.deb; cd; rm -rf docker
 ```
 ----
